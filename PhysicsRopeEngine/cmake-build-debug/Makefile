@@ -141,6 +141,33 @@ PhysicsRopeEngine/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PhysicsRopeEngine.dir\build.make CMakeFiles/PhysicsRopeEngine.dir/build
 .PHONY : PhysicsRopeEngine/fast
 
+Joint.obj: Joint.cpp.obj
+
+.PHONY : Joint.obj
+
+# target to build an object file
+Joint.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PhysicsRopeEngine.dir\build.make CMakeFiles/PhysicsRopeEngine.dir/Joint.cpp.obj
+.PHONY : Joint.cpp.obj
+
+Joint.i: Joint.cpp.i
+
+.PHONY : Joint.i
+
+# target to preprocess a source file
+Joint.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PhysicsRopeEngine.dir\build.make CMakeFiles/PhysicsRopeEngine.dir/Joint.cpp.i
+.PHONY : Joint.cpp.i
+
+Joint.s: Joint.cpp.s
+
+.PHONY : Joint.s
+
+# target to generate assembly for a file
+Joint.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PhysicsRopeEngine.dir\build.make CMakeFiles/PhysicsRopeEngine.dir/Joint.cpp.s
+.PHONY : Joint.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -177,6 +204,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... PhysicsRopeEngine
+	@echo ... Joint.obj
+	@echo ... Joint.i
+	@echo ... Joint.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
