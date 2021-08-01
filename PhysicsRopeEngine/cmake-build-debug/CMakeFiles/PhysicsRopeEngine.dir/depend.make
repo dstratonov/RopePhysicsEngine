@@ -7,7 +7,28 @@ CMakeFiles/PhysicsRopeEngine.dir/DrawPrimitives.cpp.obj: ../DrawPrimitives.h
 CMakeFiles/PhysicsRopeEngine.dir/Joint.cpp.obj: ../DrawPrimitives.h
 CMakeFiles/PhysicsRopeEngine.dir/Joint.cpp.obj: ../Joint.cpp
 CMakeFiles/PhysicsRopeEngine.dir/Joint.cpp.obj: ../Joint.h
+CMakeFiles/PhysicsRopeEngine.dir/Joint.cpp.obj: ../RenderedObject.h
+CMakeFiles/PhysicsRopeEngine.dir/Joint.cpp.obj: ../Scene.h
+CMakeFiles/PhysicsRopeEngine.dir/Joint.cpp.obj: ../UpdatedObject.h
+
+CMakeFiles/PhysicsRopeEngine.dir/RenderedObject.cpp.obj: ../RenderedObject.cpp
+CMakeFiles/PhysicsRopeEngine.dir/RenderedObject.cpp.obj: ../RenderedObject.h
+CMakeFiles/PhysicsRopeEngine.dir/RenderedObject.cpp.obj: ../Scene.h
+CMakeFiles/PhysicsRopeEngine.dir/RenderedObject.cpp.obj: ../UpdatedObject.h
+
+CMakeFiles/PhysicsRopeEngine.dir/Scene.cpp.obj: ../RenderedObject.h
+CMakeFiles/PhysicsRopeEngine.dir/Scene.cpp.obj: ../Scene.cpp
+CMakeFiles/PhysicsRopeEngine.dir/Scene.cpp.obj: ../Scene.h
+CMakeFiles/PhysicsRopeEngine.dir/Scene.cpp.obj: ../UpdatedObject.h
+
+CMakeFiles/PhysicsRopeEngine.dir/UpdatedObject.cpp.obj: ../RenderedObject.h
+CMakeFiles/PhysicsRopeEngine.dir/UpdatedObject.cpp.obj: ../Scene.h
+CMakeFiles/PhysicsRopeEngine.dir/UpdatedObject.cpp.obj: ../UpdatedObject.cpp
+CMakeFiles/PhysicsRopeEngine.dir/UpdatedObject.cpp.obj: ../UpdatedObject.h
 
 CMakeFiles/PhysicsRopeEngine.dir/main.cpp.obj: ../Joint.h
+CMakeFiles/PhysicsRopeEngine.dir/main.cpp.obj: ../RenderedObject.h
+CMakeFiles/PhysicsRopeEngine.dir/main.cpp.obj: ../Scene.h
+CMakeFiles/PhysicsRopeEngine.dir/main.cpp.obj: ../UpdatedObject.h
 CMakeFiles/PhysicsRopeEngine.dir/main.cpp.obj: ../main.cpp
 

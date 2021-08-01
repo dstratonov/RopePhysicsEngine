@@ -1,7 +1,8 @@
 #include <GL/glut.h>
 #include <GLFW/glfw3.h>
-#include "glm/ext.hpp"1
+#include "glm/ext.hpp"
 #include "Joint.h"
+#include "Scene.h"
 #include <cstdio>
 #include <iostream>
 #include <vector>
@@ -38,15 +39,15 @@ int main()
     glMatrixMode(GL_PROJECTION);
     glLoadMatrixf(glm::value_ptr(m));
 
+    Scene globalScene;
+
     std::vector<Joint> joints;
-    joints.push_back(Joint(glm::vec2(0.0, 0.0)));
+    joints.push_back(Joint(glm::vec2(0.0, 0.0), &globalScene));
 
     while(glfwWindowShouldClose(window) == GL_FALSE) {
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
         glColor4f(1, 0, 0, 1);
-        for(auto& i : joints){
-            i.update();
-        }
+        globalScene.update();
         glfwSwapBuffers(window);
         glfwPollEvents();
     }

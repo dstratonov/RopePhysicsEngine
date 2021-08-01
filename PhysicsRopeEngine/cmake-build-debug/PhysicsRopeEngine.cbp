@@ -92,6 +92,24 @@
 		<Unit filename="D:/RopePhysicsEngine/PhysicsRopeEngine/Joint.h">
 			<Option target="PhysicsRopeEngine"/>
 		</Unit>
+		<Unit filename="D:/RopePhysicsEngine/PhysicsRopeEngine/RenderedObject.cpp">
+			<Option target="PhysicsRopeEngine"/>
+		</Unit>
+		<Unit filename="D:/RopePhysicsEngine/PhysicsRopeEngine/RenderedObject.h">
+			<Option target="PhysicsRopeEngine"/>
+		</Unit>
+		<Unit filename="D:/RopePhysicsEngine/PhysicsRopeEngine/Scene.cpp">
+			<Option target="PhysicsRopeEngine"/>
+		</Unit>
+		<Unit filename="D:/RopePhysicsEngine/PhysicsRopeEngine/Scene.h">
+			<Option target="PhysicsRopeEngine"/>
+		</Unit>
+		<Unit filename="D:/RopePhysicsEngine/PhysicsRopeEngine/UpdatedObject.cpp">
+			<Option target="PhysicsRopeEngine"/>
+		</Unit>
+		<Unit filename="D:/RopePhysicsEngine/PhysicsRopeEngine/UpdatedObject.h">
+			<Option target="PhysicsRopeEngine"/>
+		</Unit>
 		<Unit filename="D:/RopePhysicsEngine/PhysicsRopeEngine/main.cpp">
 			<Option target="PhysicsRopeEngine"/>
 		</Unit>

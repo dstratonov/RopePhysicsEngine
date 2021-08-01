@@ -6,6 +6,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "D:/RopePhysicsEngine/PhysicsRopeEngine/DrawPrimitives.cpp" "D:/RopePhysicsEngine/PhysicsRopeEngine/cmake-build-debug/CMakeFiles/PhysicsRopeEngine.dir/DrawPrimitives.cpp.obj"
   "D:/RopePhysicsEngine/PhysicsRopeEngine/Joint.cpp" "D:/RopePhysicsEngine/PhysicsRopeEngine/cmake-build-debug/CMakeFiles/PhysicsRopeEngine.dir/Joint.cpp.obj"
+  "D:/RopePhysicsEngine/PhysicsRopeEngine/RenderedObject.cpp" "D:/RopePhysicsEngine/PhysicsRopeEngine/cmake-build-debug/CMakeFiles/PhysicsRopeEngine.dir/RenderedObject.cpp.obj"
+  "D:/RopePhysicsEngine/PhysicsRopeEngine/Scene.cpp" "D:/RopePhysicsEngine/PhysicsRopeEngine/cmake-build-debug/CMakeFiles/PhysicsRopeEngine.dir/Scene.cpp.obj"
+  "D:/RopePhysicsEngine/PhysicsRopeEngine/UpdatedObject.cpp" "D:/RopePhysicsEngine/PhysicsRopeEngine/cmake-build-debug/CMakeFiles/PhysicsRopeEngine.dir/UpdatedObject.cpp.obj"
   "D:/RopePhysicsEngine/PhysicsRopeEngine/main.cpp" "D:/RopePhysicsEngine/PhysicsRopeEngine/cmake-build-debug/CMakeFiles/PhysicsRopeEngine.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

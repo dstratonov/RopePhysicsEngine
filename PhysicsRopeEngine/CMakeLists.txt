@@ -4,7 +4,7 @@ project(PhysicsRopeEngine)
 set(CMAKE_CXX_STANDARD 14)
 
 
-add_executable(PhysicsRopeEngine main.cpp Joint.h DrawPrimitives.h Joint.cpp DrawPrimitives.cpp)
+add_executable(PhysicsRopeEngine main.cpp Joint.h DrawPrimitives.h Joint.cpp DrawPrimitives.cpp Scene.cpp Scene.h RenderedObject.cpp RenderedObject.h UpdatedObject.cpp UpdatedObject.h)
 
 target_link_libraries(PhysicsRopeEngine -lOpenGl32 -lfreeGLUT -lglfw3)
 
