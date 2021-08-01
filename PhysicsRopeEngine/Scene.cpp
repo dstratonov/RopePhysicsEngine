@@ -1,6 +1,7 @@
 #include "Scene.h"
 
 
+
 void Scene::addRenderedObject(RenderedObject *object){
     mRenderedObjects.push_back(object);
 }

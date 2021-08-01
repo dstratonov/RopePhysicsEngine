@@ -44,21 +44,3 @@ D:/RopePhysicsEngine/PhysicsRopeEngine/UpdatedObject.h
 Scene.h
 D:/RopePhysicsEngine/PhysicsRopeEngine/Scene.h
 
-D:/RopePhysicsEngine/PhysicsRopeEngine/main.cpp
-GL/glut.h
--
-GLFW/glfw3.h
--
-glm/ext.hpp
-D:/RopePhysicsEngine/PhysicsRopeEngine/glm/ext.hpp
-Joint.h
-D:/RopePhysicsEngine/PhysicsRopeEngine/Joint.h
-Scene.h
-D:/RopePhysicsEngine/PhysicsRopeEngine/Scene.h
-cstdio
--
-iostream
--
-vector
--
-
