@@ -1,6 +1,6 @@
 #include <GL/glut.h>
 #include <GLFW/glfw3.h>
-#include "glm/ext.hpp"
+#include "glm/ext.hpp"1
 #include "Joint.h"
 #include <cstdio>
 #include <iostream>
@@ -39,7 +39,7 @@ int main()
     glLoadMatrixf(glm::value_ptr(m));
 
     std::vector<Joint> joints;
-    joints.push_back(Joint(glm::vec2(0.0, 5.0)));
+    joints.push_back(Joint(glm::vec2(0.0, 0.0)));
 
     while(glfwWindowShouldClose(window) == GL_FALSE) {
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);

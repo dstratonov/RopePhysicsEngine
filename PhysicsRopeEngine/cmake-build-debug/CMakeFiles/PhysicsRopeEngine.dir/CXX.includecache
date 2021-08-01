@@ -6,6 +6,22 @@
 
 #IncludeRegexTransform: 
 
+D:/RopePhysicsEngine/PhysicsRopeEngine/DrawPrimitives.cpp
+DrawPrimitives.h
+D:/RopePhysicsEngine/PhysicsRopeEngine/DrawPrimitives.h
+
+D:/RopePhysicsEngine/PhysicsRopeEngine/DrawPrimitives.h
+GL/glut.h
+-
+glm/ext.hpp
+D:/RopePhysicsEngine/PhysicsRopeEngine/glm/ext.hpp
+
+D:/RopePhysicsEngine/PhysicsRopeEngine/Joint.cpp
+Joint.h
+D:/RopePhysicsEngine/PhysicsRopeEngine/Joint.h
+DrawPrimitives.h
+D:/RopePhysicsEngine/PhysicsRopeEngine/DrawPrimitives.h
+
 D:/RopePhysicsEngine/PhysicsRopeEngine/Joint.h
 glm/ext.hpp
 D:/RopePhysicsEngine/PhysicsRopeEngine/glm/ext.hpp

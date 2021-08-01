@@ -80,6 +80,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/RopePhysicsEngine/PhysicsRopeEngine/DrawPrimitives.cpp">
+			<Option target="PhysicsRopeEngine"/>
+		</Unit>
 		<Unit filename="D:/RopePhysicsEngine/PhysicsRopeEngine/DrawPrimitives.h">
 			<Option target="PhysicsRopeEngine"/>
 		</Unit>

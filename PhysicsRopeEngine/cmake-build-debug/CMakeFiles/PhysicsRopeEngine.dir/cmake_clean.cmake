@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/PhysicsRopeEngine.dir/DrawPrimitives.cpp.obj"
   "CMakeFiles/PhysicsRopeEngine.dir/Joint.cpp.obj"
   "CMakeFiles/PhysicsRopeEngine.dir/main.cpp.obj"
   "PhysicsRopeEngine.exe"

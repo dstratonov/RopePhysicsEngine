@@ -141,6 +141,33 @@ PhysicsRopeEngine/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PhysicsRopeEngine.dir\build.make CMakeFiles/PhysicsRopeEngine.dir/build
 .PHONY : PhysicsRopeEngine/fast
 
+DrawPrimitives.obj: DrawPrimitives.cpp.obj
+
+.PHONY : DrawPrimitives.obj
+
+# target to build an object file
+DrawPrimitives.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PhysicsRopeEngine.dir\build.make CMakeFiles/PhysicsRopeEngine.dir/DrawPrimitives.cpp.obj
+.PHONY : DrawPrimitives.cpp.obj
+
+DrawPrimitives.i: DrawPrimitives.cpp.i
+
+.PHONY : DrawPrimitives.i
+
+# target to preprocess a source file
+DrawPrimitives.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PhysicsRopeEngine.dir\build.make CMakeFiles/PhysicsRopeEngine.dir/DrawPrimitives.cpp.i
+.PHONY : DrawPrimitives.cpp.i
+
+DrawPrimitives.s: DrawPrimitives.cpp.s
+
+.PHONY : DrawPrimitives.s
+
+# target to generate assembly for a file
+DrawPrimitives.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PhysicsRopeEngine.dir\build.make CMakeFiles/PhysicsRopeEngine.dir/DrawPrimitives.cpp.s
+.PHONY : DrawPrimitives.cpp.s
+
 Joint.obj: Joint.cpp.obj
 
 .PHONY : Joint.obj
@@ -204,6 +231,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... PhysicsRopeEngine
+	@echo ... DrawPrimitives.obj
+	@echo ... DrawPrimitives.i
+	@echo ... DrawPrimitives.s
 	@echo ... Joint.obj
 	@echo ... Joint.i
 	@echo ... Joint.s
