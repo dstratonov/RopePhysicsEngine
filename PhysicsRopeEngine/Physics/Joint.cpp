@@ -1,5 +1,5 @@
 #include "Joint.h"
-#include "DrawPrimitives.h"
+#include "../Utilities/DrawPrimitives.h"
 
 Joint::Joint(glm::vec2 initialPosition, Scene* scene) : mPosition(initialPosition), UpdatedObject(scene),
                                                         RenderedObject(scene){
@@ -23,5 +23,5 @@ void Joint::update() {
 }
 
 void Joint::render() {
-    Primitives::drawTheCircle(mPosition, DEFAULT_JOINT_RADIUS);
+    drawTheCircle(mPosition, DEFAULT_JOINT_RADIUS);
 }

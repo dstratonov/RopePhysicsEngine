@@ -1,7 +1,7 @@
 #include <GL/glut.h>
 #include <GLFW/glfw3.h>
 #include "glm/ext.hpp"
-#include "Joint.h"
+#include "Physics/Joint.h"
 #include <iostream>
 #include <vector>
 
@@ -45,10 +45,6 @@ int main()
     while(glfwWindowShouldClose(window) == GL_FALSE) {
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
         glColor4f(1, 0, 0, 1);
-        glBegin(GL_LINES);
-        glVertex3f(-10, -2, -10);
-        glVertex3f(10, -2, -10);
-        glEnd();
         globalScene.update();
         glfwSwapBuffers(window);
         glfwPollEvents();

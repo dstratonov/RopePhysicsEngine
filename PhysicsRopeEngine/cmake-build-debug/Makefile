@@ -141,140 +141,140 @@ PhysicsRopeEngine/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PhysicsRopeEngine.dir\build.make CMakeFiles/PhysicsRopeEngine.dir/build
 .PHONY : PhysicsRopeEngine/fast
 
-DrawPrimitives.obj: DrawPrimitives.cpp.obj
+BaseClasses/RenderedObject.obj: BaseClasses/RenderedObject.cpp.obj
 
-.PHONY : DrawPrimitives.obj
-
-# target to build an object file
-DrawPrimitives.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PhysicsRopeEngine.dir\build.make CMakeFiles/PhysicsRopeEngine.dir/DrawPrimitives.cpp.obj
-.PHONY : DrawPrimitives.cpp.obj
-
-DrawPrimitives.i: DrawPrimitives.cpp.i
-
-.PHONY : DrawPrimitives.i
-
-# target to preprocess a source file
-DrawPrimitives.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PhysicsRopeEngine.dir\build.make CMakeFiles/PhysicsRopeEngine.dir/DrawPrimitives.cpp.i
-.PHONY : DrawPrimitives.cpp.i
-
-DrawPrimitives.s: DrawPrimitives.cpp.s
-
-.PHONY : DrawPrimitives.s
-
-# target to generate assembly for a file
-DrawPrimitives.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PhysicsRopeEngine.dir\build.make CMakeFiles/PhysicsRopeEngine.dir/DrawPrimitives.cpp.s
-.PHONY : DrawPrimitives.cpp.s
-
-Joint.obj: Joint.cpp.obj
-
-.PHONY : Joint.obj
+.PHONY : BaseClasses/RenderedObject.obj
 
 # target to build an object file
-Joint.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PhysicsRopeEngine.dir\build.make CMakeFiles/PhysicsRopeEngine.dir/Joint.cpp.obj
-.PHONY : Joint.cpp.obj
+BaseClasses/RenderedObject.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PhysicsRopeEngine.dir\build.make CMakeFiles/PhysicsRopeEngine.dir/BaseClasses/RenderedObject.cpp.obj
+.PHONY : BaseClasses/RenderedObject.cpp.obj
 
-Joint.i: Joint.cpp.i
+BaseClasses/RenderedObject.i: BaseClasses/RenderedObject.cpp.i
 
-.PHONY : Joint.i
+.PHONY : BaseClasses/RenderedObject.i
 
 # target to preprocess a source file
-Joint.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PhysicsRopeEngine.dir\build.make CMakeFiles/PhysicsRopeEngine.dir/Joint.cpp.i
-.PHONY : Joint.cpp.i
+BaseClasses/RenderedObject.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PhysicsRopeEngine.dir\build.make CMakeFiles/PhysicsRopeEngine.dir/BaseClasses/RenderedObject.cpp.i
+.PHONY : BaseClasses/RenderedObject.cpp.i
 
-Joint.s: Joint.cpp.s
+BaseClasses/RenderedObject.s: BaseClasses/RenderedObject.cpp.s
 
-.PHONY : Joint.s
+.PHONY : BaseClasses/RenderedObject.s
 
 # target to generate assembly for a file
-Joint.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PhysicsRopeEngine.dir\build.make CMakeFiles/PhysicsRopeEngine.dir/Joint.cpp.s
-.PHONY : Joint.cpp.s
+BaseClasses/RenderedObject.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PhysicsRopeEngine.dir\build.make CMakeFiles/PhysicsRopeEngine.dir/BaseClasses/RenderedObject.cpp.s
+.PHONY : BaseClasses/RenderedObject.cpp.s
 
-RenderedObject.obj: RenderedObject.cpp.obj
+BaseClasses/UpdatedObject.obj: BaseClasses/UpdatedObject.cpp.obj
 
-.PHONY : RenderedObject.obj
+.PHONY : BaseClasses/UpdatedObject.obj
 
 # target to build an object file
-RenderedObject.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PhysicsRopeEngine.dir\build.make CMakeFiles/PhysicsRopeEngine.dir/RenderedObject.cpp.obj
-.PHONY : RenderedObject.cpp.obj
+BaseClasses/UpdatedObject.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PhysicsRopeEngine.dir\build.make CMakeFiles/PhysicsRopeEngine.dir/BaseClasses/UpdatedObject.cpp.obj
+.PHONY : BaseClasses/UpdatedObject.cpp.obj
 
-RenderedObject.i: RenderedObject.cpp.i
+BaseClasses/UpdatedObject.i: BaseClasses/UpdatedObject.cpp.i
 
-.PHONY : RenderedObject.i
+.PHONY : BaseClasses/UpdatedObject.i
 
 # target to preprocess a source file
-RenderedObject.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PhysicsRopeEngine.dir\build.make CMakeFiles/PhysicsRopeEngine.dir/RenderedObject.cpp.i
-.PHONY : RenderedObject.cpp.i
+BaseClasses/UpdatedObject.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PhysicsRopeEngine.dir\build.make CMakeFiles/PhysicsRopeEngine.dir/BaseClasses/UpdatedObject.cpp.i
+.PHONY : BaseClasses/UpdatedObject.cpp.i
 
-RenderedObject.s: RenderedObject.cpp.s
+BaseClasses/UpdatedObject.s: BaseClasses/UpdatedObject.cpp.s
 
-.PHONY : RenderedObject.s
+.PHONY : BaseClasses/UpdatedObject.s
 
 # target to generate assembly for a file
-RenderedObject.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PhysicsRopeEngine.dir\build.make CMakeFiles/PhysicsRopeEngine.dir/RenderedObject.cpp.s
-.PHONY : RenderedObject.cpp.s
+BaseClasses/UpdatedObject.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PhysicsRopeEngine.dir\build.make CMakeFiles/PhysicsRopeEngine.dir/BaseClasses/UpdatedObject.cpp.s
+.PHONY : BaseClasses/UpdatedObject.cpp.s
 
-Scene.obj: Scene.cpp.obj
+Physics/Joint.obj: Physics/Joint.cpp.obj
 
-.PHONY : Scene.obj
+.PHONY : Physics/Joint.obj
 
 # target to build an object file
-Scene.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PhysicsRopeEngine.dir\build.make CMakeFiles/PhysicsRopeEngine.dir/Scene.cpp.obj
-.PHONY : Scene.cpp.obj
+Physics/Joint.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PhysicsRopeEngine.dir\build.make CMakeFiles/PhysicsRopeEngine.dir/Physics/Joint.cpp.obj
+.PHONY : Physics/Joint.cpp.obj
 
-Scene.i: Scene.cpp.i
+Physics/Joint.i: Physics/Joint.cpp.i
 
-.PHONY : Scene.i
+.PHONY : Physics/Joint.i
 
 # target to preprocess a source file
-Scene.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PhysicsRopeEngine.dir\build.make CMakeFiles/PhysicsRopeEngine.dir/Scene.cpp.i
-.PHONY : Scene.cpp.i
+Physics/Joint.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PhysicsRopeEngine.dir\build.make CMakeFiles/PhysicsRopeEngine.dir/Physics/Joint.cpp.i
+.PHONY : Physics/Joint.cpp.i
 
-Scene.s: Scene.cpp.s
+Physics/Joint.s: Physics/Joint.cpp.s
 
-.PHONY : Scene.s
+.PHONY : Physics/Joint.s
 
 # target to generate assembly for a file
-Scene.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PhysicsRopeEngine.dir\build.make CMakeFiles/PhysicsRopeEngine.dir/Scene.cpp.s
-.PHONY : Scene.cpp.s
+Physics/Joint.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PhysicsRopeEngine.dir\build.make CMakeFiles/PhysicsRopeEngine.dir/Physics/Joint.cpp.s
+.PHONY : Physics/Joint.cpp.s
 
-UpdatedObject.obj: UpdatedObject.cpp.obj
+Scene/Scene.obj: Scene/Scene.cpp.obj
 
-.PHONY : UpdatedObject.obj
+.PHONY : Scene/Scene.obj
 
 # target to build an object file
-UpdatedObject.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PhysicsRopeEngine.dir\build.make CMakeFiles/PhysicsRopeEngine.dir/UpdatedObject.cpp.obj
-.PHONY : UpdatedObject.cpp.obj
+Scene/Scene.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PhysicsRopeEngine.dir\build.make CMakeFiles/PhysicsRopeEngine.dir/Scene/Scene.cpp.obj
+.PHONY : Scene/Scene.cpp.obj
 
-UpdatedObject.i: UpdatedObject.cpp.i
+Scene/Scene.i: Scene/Scene.cpp.i
 
-.PHONY : UpdatedObject.i
+.PHONY : Scene/Scene.i
 
 # target to preprocess a source file
-UpdatedObject.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PhysicsRopeEngine.dir\build.make CMakeFiles/PhysicsRopeEngine.dir/UpdatedObject.cpp.i
-.PHONY : UpdatedObject.cpp.i
+Scene/Scene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PhysicsRopeEngine.dir\build.make CMakeFiles/PhysicsRopeEngine.dir/Scene/Scene.cpp.i
+.PHONY : Scene/Scene.cpp.i
 
-UpdatedObject.s: UpdatedObject.cpp.s
+Scene/Scene.s: Scene/Scene.cpp.s
 
-.PHONY : UpdatedObject.s
+.PHONY : Scene/Scene.s
 
 # target to generate assembly for a file
-UpdatedObject.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PhysicsRopeEngine.dir\build.make CMakeFiles/PhysicsRopeEngine.dir/UpdatedObject.cpp.s
-.PHONY : UpdatedObject.cpp.s
+Scene/Scene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PhysicsRopeEngine.dir\build.make CMakeFiles/PhysicsRopeEngine.dir/Scene/Scene.cpp.s
+.PHONY : Scene/Scene.cpp.s
+
+Utilities/DrawPrimitives.obj: Utilities/DrawPrimitives.cpp.obj
+
+.PHONY : Utilities/DrawPrimitives.obj
+
+# target to build an object file
+Utilities/DrawPrimitives.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PhysicsRopeEngine.dir\build.make CMakeFiles/PhysicsRopeEngine.dir/Utilities/DrawPrimitives.cpp.obj
+.PHONY : Utilities/DrawPrimitives.cpp.obj
+
+Utilities/DrawPrimitives.i: Utilities/DrawPrimitives.cpp.i
+
+.PHONY : Utilities/DrawPrimitives.i
+
+# target to preprocess a source file
+Utilities/DrawPrimitives.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PhysicsRopeEngine.dir\build.make CMakeFiles/PhysicsRopeEngine.dir/Utilities/DrawPrimitives.cpp.i
+.PHONY : Utilities/DrawPrimitives.cpp.i
+
+Utilities/DrawPrimitives.s: Utilities/DrawPrimitives.cpp.s
+
+.PHONY : Utilities/DrawPrimitives.s
+
+# target to generate assembly for a file
+Utilities/DrawPrimitives.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PhysicsRopeEngine.dir\build.make CMakeFiles/PhysicsRopeEngine.dir/Utilities/DrawPrimitives.cpp.s
+.PHONY : Utilities/DrawPrimitives.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -312,21 +312,21 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... PhysicsRopeEngine
-	@echo ... DrawPrimitives.obj
-	@echo ... DrawPrimitives.i
-	@echo ... DrawPrimitives.s
-	@echo ... Joint.obj
-	@echo ... Joint.i
-	@echo ... Joint.s
-	@echo ... RenderedObject.obj
-	@echo ... RenderedObject.i
-	@echo ... RenderedObject.s
-	@echo ... Scene.obj
-	@echo ... Scene.i
-	@echo ... Scene.s
-	@echo ... UpdatedObject.obj
-	@echo ... UpdatedObject.i
-	@echo ... UpdatedObject.s
+	@echo ... BaseClasses/RenderedObject.obj
+	@echo ... BaseClasses/RenderedObject.i
+	@echo ... BaseClasses/RenderedObject.s
+	@echo ... BaseClasses/UpdatedObject.obj
+	@echo ... BaseClasses/UpdatedObject.i
+	@echo ... BaseClasses/UpdatedObject.s
+	@echo ... Physics/Joint.obj
+	@echo ... Physics/Joint.i
+	@echo ... Physics/Joint.s
+	@echo ... Scene/Scene.obj
+	@echo ... Scene/Scene.i
+	@echo ... Scene/Scene.s
+	@echo ... Utilities/DrawPrimitives.obj
+	@echo ... Utilities/DrawPrimitives.i
+	@echo ... Utilities/DrawPrimitives.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

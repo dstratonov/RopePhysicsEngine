@@ -88,89 +88,89 @@ CMakeFiles/PhysicsRopeEngine.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PhysicsRopeEngine.dir/main.cpp.s"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\RopePhysicsEngine\PhysicsRopeEngine\main.cpp -o CMakeFiles\PhysicsRopeEngine.dir\main.cpp.s
 
-CMakeFiles/PhysicsRopeEngine.dir/Joint.cpp.obj: CMakeFiles/PhysicsRopeEngine.dir/flags.make
-CMakeFiles/PhysicsRopeEngine.dir/Joint.cpp.obj: ../Joint.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\RopePhysicsEngine\PhysicsRopeEngine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PhysicsRopeEngine.dir/Joint.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PhysicsRopeEngine.dir\Joint.cpp.obj -c D:\RopePhysicsEngine\PhysicsRopeEngine\Joint.cpp
+CMakeFiles/PhysicsRopeEngine.dir/Physics/Joint.cpp.obj: CMakeFiles/PhysicsRopeEngine.dir/flags.make
+CMakeFiles/PhysicsRopeEngine.dir/Physics/Joint.cpp.obj: ../Physics/Joint.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\RopePhysicsEngine\PhysicsRopeEngine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PhysicsRopeEngine.dir/Physics/Joint.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PhysicsRopeEngine.dir\Physics\Joint.cpp.obj -c D:\RopePhysicsEngine\PhysicsRopeEngine\Physics\Joint.cpp
 
-CMakeFiles/PhysicsRopeEngine.dir/Joint.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PhysicsRopeEngine.dir/Joint.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\RopePhysicsEngine\PhysicsRopeEngine\Joint.cpp > CMakeFiles\PhysicsRopeEngine.dir\Joint.cpp.i
+CMakeFiles/PhysicsRopeEngine.dir/Physics/Joint.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PhysicsRopeEngine.dir/Physics/Joint.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\RopePhysicsEngine\PhysicsRopeEngine\Physics\Joint.cpp > CMakeFiles\PhysicsRopeEngine.dir\Physics\Joint.cpp.i
 
-CMakeFiles/PhysicsRopeEngine.dir/Joint.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PhysicsRopeEngine.dir/Joint.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\RopePhysicsEngine\PhysicsRopeEngine\Joint.cpp -o CMakeFiles\PhysicsRopeEngine.dir\Joint.cpp.s
+CMakeFiles/PhysicsRopeEngine.dir/Physics/Joint.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PhysicsRopeEngine.dir/Physics/Joint.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\RopePhysicsEngine\PhysicsRopeEngine\Physics\Joint.cpp -o CMakeFiles\PhysicsRopeEngine.dir\Physics\Joint.cpp.s
 
-CMakeFiles/PhysicsRopeEngine.dir/DrawPrimitives.cpp.obj: CMakeFiles/PhysicsRopeEngine.dir/flags.make
-CMakeFiles/PhysicsRopeEngine.dir/DrawPrimitives.cpp.obj: ../DrawPrimitives.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\RopePhysicsEngine\PhysicsRopeEngine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PhysicsRopeEngine.dir/DrawPrimitives.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PhysicsRopeEngine.dir\DrawPrimitives.cpp.obj -c D:\RopePhysicsEngine\PhysicsRopeEngine\DrawPrimitives.cpp
+CMakeFiles/PhysicsRopeEngine.dir/Utilities/DrawPrimitives.cpp.obj: CMakeFiles/PhysicsRopeEngine.dir/flags.make
+CMakeFiles/PhysicsRopeEngine.dir/Utilities/DrawPrimitives.cpp.obj: ../Utilities/DrawPrimitives.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\RopePhysicsEngine\PhysicsRopeEngine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PhysicsRopeEngine.dir/Utilities/DrawPrimitives.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PhysicsRopeEngine.dir\Utilities\DrawPrimitives.cpp.obj -c D:\RopePhysicsEngine\PhysicsRopeEngine\Utilities\DrawPrimitives.cpp
 
-CMakeFiles/PhysicsRopeEngine.dir/DrawPrimitives.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PhysicsRopeEngine.dir/DrawPrimitives.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\RopePhysicsEngine\PhysicsRopeEngine\DrawPrimitives.cpp > CMakeFiles\PhysicsRopeEngine.dir\DrawPrimitives.cpp.i
+CMakeFiles/PhysicsRopeEngine.dir/Utilities/DrawPrimitives.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PhysicsRopeEngine.dir/Utilities/DrawPrimitives.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\RopePhysicsEngine\PhysicsRopeEngine\Utilities\DrawPrimitives.cpp > CMakeFiles\PhysicsRopeEngine.dir\Utilities\DrawPrimitives.cpp.i
 
-CMakeFiles/PhysicsRopeEngine.dir/DrawPrimitives.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PhysicsRopeEngine.dir/DrawPrimitives.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\RopePhysicsEngine\PhysicsRopeEngine\DrawPrimitives.cpp -o CMakeFiles\PhysicsRopeEngine.dir\DrawPrimitives.cpp.s
+CMakeFiles/PhysicsRopeEngine.dir/Utilities/DrawPrimitives.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PhysicsRopeEngine.dir/Utilities/DrawPrimitives.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\RopePhysicsEngine\PhysicsRopeEngine\Utilities\DrawPrimitives.cpp -o CMakeFiles\PhysicsRopeEngine.dir\Utilities\DrawPrimitives.cpp.s
 
-CMakeFiles/PhysicsRopeEngine.dir/Scene.cpp.obj: CMakeFiles/PhysicsRopeEngine.dir/flags.make
-CMakeFiles/PhysicsRopeEngine.dir/Scene.cpp.obj: ../Scene.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\RopePhysicsEngine\PhysicsRopeEngine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PhysicsRopeEngine.dir/Scene.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PhysicsRopeEngine.dir\Scene.cpp.obj -c D:\RopePhysicsEngine\PhysicsRopeEngine\Scene.cpp
+CMakeFiles/PhysicsRopeEngine.dir/Scene/Scene.cpp.obj: CMakeFiles/PhysicsRopeEngine.dir/flags.make
+CMakeFiles/PhysicsRopeEngine.dir/Scene/Scene.cpp.obj: ../Scene/Scene.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\RopePhysicsEngine\PhysicsRopeEngine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PhysicsRopeEngine.dir/Scene/Scene.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PhysicsRopeEngine.dir\Scene\Scene.cpp.obj -c D:\RopePhysicsEngine\PhysicsRopeEngine\Scene\Scene.cpp
 
-CMakeFiles/PhysicsRopeEngine.dir/Scene.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PhysicsRopeEngine.dir/Scene.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\RopePhysicsEngine\PhysicsRopeEngine\Scene.cpp > CMakeFiles\PhysicsRopeEngine.dir\Scene.cpp.i
+CMakeFiles/PhysicsRopeEngine.dir/Scene/Scene.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PhysicsRopeEngine.dir/Scene/Scene.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\RopePhysicsEngine\PhysicsRopeEngine\Scene\Scene.cpp > CMakeFiles\PhysicsRopeEngine.dir\Scene\Scene.cpp.i
 
-CMakeFiles/PhysicsRopeEngine.dir/Scene.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PhysicsRopeEngine.dir/Scene.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\RopePhysicsEngine\PhysicsRopeEngine\Scene.cpp -o CMakeFiles\PhysicsRopeEngine.dir\Scene.cpp.s
+CMakeFiles/PhysicsRopeEngine.dir/Scene/Scene.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PhysicsRopeEngine.dir/Scene/Scene.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\RopePhysicsEngine\PhysicsRopeEngine\Scene\Scene.cpp -o CMakeFiles\PhysicsRopeEngine.dir\Scene\Scene.cpp.s
 
-CMakeFiles/PhysicsRopeEngine.dir/RenderedObject.cpp.obj: CMakeFiles/PhysicsRopeEngine.dir/flags.make
-CMakeFiles/PhysicsRopeEngine.dir/RenderedObject.cpp.obj: ../RenderedObject.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\RopePhysicsEngine\PhysicsRopeEngine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PhysicsRopeEngine.dir/RenderedObject.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PhysicsRopeEngine.dir\RenderedObject.cpp.obj -c D:\RopePhysicsEngine\PhysicsRopeEngine\RenderedObject.cpp
+CMakeFiles/PhysicsRopeEngine.dir/BaseClasses/RenderedObject.cpp.obj: CMakeFiles/PhysicsRopeEngine.dir/flags.make
+CMakeFiles/PhysicsRopeEngine.dir/BaseClasses/RenderedObject.cpp.obj: ../BaseClasses/RenderedObject.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\RopePhysicsEngine\PhysicsRopeEngine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PhysicsRopeEngine.dir/BaseClasses/RenderedObject.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PhysicsRopeEngine.dir\BaseClasses\RenderedObject.cpp.obj -c D:\RopePhysicsEngine\PhysicsRopeEngine\BaseClasses\RenderedObject.cpp
 
-CMakeFiles/PhysicsRopeEngine.dir/RenderedObject.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PhysicsRopeEngine.dir/RenderedObject.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\RopePhysicsEngine\PhysicsRopeEngine\RenderedObject.cpp > CMakeFiles\PhysicsRopeEngine.dir\RenderedObject.cpp.i
+CMakeFiles/PhysicsRopeEngine.dir/BaseClasses/RenderedObject.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PhysicsRopeEngine.dir/BaseClasses/RenderedObject.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\RopePhysicsEngine\PhysicsRopeEngine\BaseClasses\RenderedObject.cpp > CMakeFiles\PhysicsRopeEngine.dir\BaseClasses\RenderedObject.cpp.i
 
-CMakeFiles/PhysicsRopeEngine.dir/RenderedObject.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PhysicsRopeEngine.dir/RenderedObject.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\RopePhysicsEngine\PhysicsRopeEngine\RenderedObject.cpp -o CMakeFiles\PhysicsRopeEngine.dir\RenderedObject.cpp.s
+CMakeFiles/PhysicsRopeEngine.dir/BaseClasses/RenderedObject.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PhysicsRopeEngine.dir/BaseClasses/RenderedObject.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\RopePhysicsEngine\PhysicsRopeEngine\BaseClasses\RenderedObject.cpp -o CMakeFiles\PhysicsRopeEngine.dir\BaseClasses\RenderedObject.cpp.s
 
-CMakeFiles/PhysicsRopeEngine.dir/UpdatedObject.cpp.obj: CMakeFiles/PhysicsRopeEngine.dir/flags.make
-CMakeFiles/PhysicsRopeEngine.dir/UpdatedObject.cpp.obj: ../UpdatedObject.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\RopePhysicsEngine\PhysicsRopeEngine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/PhysicsRopeEngine.dir/UpdatedObject.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PhysicsRopeEngine.dir\UpdatedObject.cpp.obj -c D:\RopePhysicsEngine\PhysicsRopeEngine\UpdatedObject.cpp
+CMakeFiles/PhysicsRopeEngine.dir/BaseClasses/UpdatedObject.cpp.obj: CMakeFiles/PhysicsRopeEngine.dir/flags.make
+CMakeFiles/PhysicsRopeEngine.dir/BaseClasses/UpdatedObject.cpp.obj: ../BaseClasses/UpdatedObject.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\RopePhysicsEngine\PhysicsRopeEngine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/PhysicsRopeEngine.dir/BaseClasses/UpdatedObject.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PhysicsRopeEngine.dir\BaseClasses\UpdatedObject.cpp.obj -c D:\RopePhysicsEngine\PhysicsRopeEngine\BaseClasses\UpdatedObject.cpp
 
-CMakeFiles/PhysicsRopeEngine.dir/UpdatedObject.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PhysicsRopeEngine.dir/UpdatedObject.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\RopePhysicsEngine\PhysicsRopeEngine\UpdatedObject.cpp > CMakeFiles\PhysicsRopeEngine.dir\UpdatedObject.cpp.i
+CMakeFiles/PhysicsRopeEngine.dir/BaseClasses/UpdatedObject.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PhysicsRopeEngine.dir/BaseClasses/UpdatedObject.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\RopePhysicsEngine\PhysicsRopeEngine\BaseClasses\UpdatedObject.cpp > CMakeFiles\PhysicsRopeEngine.dir\BaseClasses\UpdatedObject.cpp.i
 
-CMakeFiles/PhysicsRopeEngine.dir/UpdatedObject.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PhysicsRopeEngine.dir/UpdatedObject.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\RopePhysicsEngine\PhysicsRopeEngine\UpdatedObject.cpp -o CMakeFiles\PhysicsRopeEngine.dir\UpdatedObject.cpp.s
+CMakeFiles/PhysicsRopeEngine.dir/BaseClasses/UpdatedObject.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PhysicsRopeEngine.dir/BaseClasses/UpdatedObject.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\RopePhysicsEngine\PhysicsRopeEngine\BaseClasses\UpdatedObject.cpp -o CMakeFiles\PhysicsRopeEngine.dir\BaseClasses\UpdatedObject.cpp.s
 
 # Object files for target PhysicsRopeEngine
 PhysicsRopeEngine_OBJECTS = \
 "CMakeFiles/PhysicsRopeEngine.dir/main.cpp.obj" \
-"CMakeFiles/PhysicsRopeEngine.dir/Joint.cpp.obj" \
-"CMakeFiles/PhysicsRopeEngine.dir/DrawPrimitives.cpp.obj" \
-"CMakeFiles/PhysicsRopeEngine.dir/Scene.cpp.obj" \
-"CMakeFiles/PhysicsRopeEngine.dir/RenderedObject.cpp.obj" \
-"CMakeFiles/PhysicsRopeEngine.dir/UpdatedObject.cpp.obj"
+"CMakeFiles/PhysicsRopeEngine.dir/Physics/Joint.cpp.obj" \
+"CMakeFiles/PhysicsRopeEngine.dir/Utilities/DrawPrimitives.cpp.obj" \
+"CMakeFiles/PhysicsRopeEngine.dir/Scene/Scene.cpp.obj" \
+"CMakeFiles/PhysicsRopeEngine.dir/BaseClasses/RenderedObject.cpp.obj" \
+"CMakeFiles/PhysicsRopeEngine.dir/BaseClasses/UpdatedObject.cpp.obj"
 
 # External object files for target PhysicsRopeEngine
 PhysicsRopeEngine_EXTERNAL_OBJECTS =
 
 PhysicsRopeEngine.exe: CMakeFiles/PhysicsRopeEngine.dir/main.cpp.obj
-PhysicsRopeEngine.exe: CMakeFiles/PhysicsRopeEngine.dir/Joint.cpp.obj
-PhysicsRopeEngine.exe: CMakeFiles/PhysicsRopeEngine.dir/DrawPrimitives.cpp.obj
-PhysicsRopeEngine.exe: CMakeFiles/PhysicsRopeEngine.dir/Scene.cpp.obj
-PhysicsRopeEngine.exe: CMakeFiles/PhysicsRopeEngine.dir/RenderedObject.cpp.obj
-PhysicsRopeEngine.exe: CMakeFiles/PhysicsRopeEngine.dir/UpdatedObject.cpp.obj
+PhysicsRopeEngine.exe: CMakeFiles/PhysicsRopeEngine.dir/Physics/Joint.cpp.obj
+PhysicsRopeEngine.exe: CMakeFiles/PhysicsRopeEngine.dir/Utilities/DrawPrimitives.cpp.obj
+PhysicsRopeEngine.exe: CMakeFiles/PhysicsRopeEngine.dir/Scene/Scene.cpp.obj
+PhysicsRopeEngine.exe: CMakeFiles/PhysicsRopeEngine.dir/BaseClasses/RenderedObject.cpp.obj
+PhysicsRopeEngine.exe: CMakeFiles/PhysicsRopeEngine.dir/BaseClasses/UpdatedObject.cpp.obj
 PhysicsRopeEngine.exe: CMakeFiles/PhysicsRopeEngine.dir/build.make
 PhysicsRopeEngine.exe: CMakeFiles/PhysicsRopeEngine.dir/linklibs.rsp
 PhysicsRopeEngine.exe: CMakeFiles/PhysicsRopeEngine.dir/objects1.rsp

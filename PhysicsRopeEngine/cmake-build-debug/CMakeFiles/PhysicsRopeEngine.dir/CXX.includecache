@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+D:/RopePhysicsEngine/PhysicsRopeEngine/DrawPrimitives.cpp
+DrawPrimitives.h
+D:/RopePhysicsEngine/PhysicsRopeEngine/DrawPrimitives.h
+
 D:/RopePhysicsEngine/PhysicsRopeEngine/DrawPrimitives.h
 GL/glut.h
 -
@@ -28,7 +32,15 @@ D:/RopePhysicsEngine/PhysicsRopeEngine/UpdatedObject.h
 Scene.h
 D:/RopePhysicsEngine/PhysicsRopeEngine/Scene.h
 
+D:/RopePhysicsEngine/PhysicsRopeEngine/RenderedObject.cpp
+RenderedObject.h
 D:/RopePhysicsEngine/PhysicsRopeEngine/RenderedObject.h
+
+D:/RopePhysicsEngine/PhysicsRopeEngine/RenderedObject.h
+Scene.h
+D:/RopePhysicsEngine/PhysicsRopeEngine/Scene.h
+
+D:/RopePhysicsEngine/PhysicsRopeEngine/Scene.cpp
 Scene.h
 D:/RopePhysicsEngine/PhysicsRopeEngine/Scene.h
 
@@ -39,8 +51,28 @@ RenderedObject.h
 D:/RopePhysicsEngine/PhysicsRopeEngine/RenderedObject.h
 UpdatedObject.h
 D:/RopePhysicsEngine/PhysicsRopeEngine/UpdatedObject.h
+DrawPrimitives.h
+D:/RopePhysicsEngine/PhysicsRopeEngine/DrawPrimitives.h
+
+D:/RopePhysicsEngine/PhysicsRopeEngine/UpdatedObject.cpp
+UpdatedObject.h
+D:/RopePhysicsEngine/PhysicsRopeEngine/UpdatedObject.h
 
 D:/RopePhysicsEngine/PhysicsRopeEngine/UpdatedObject.h
 Scene.h
 D:/RopePhysicsEngine/PhysicsRopeEngine/Scene.h
+
+D:/RopePhysicsEngine/PhysicsRopeEngine/main.cpp
+GL/glut.h
+-
+GLFW/glfw3.h
+-
+glm/ext.hpp
+D:/RopePhysicsEngine/PhysicsRopeEngine/glm/ext.hpp
+Joint.h
+D:/RopePhysicsEngine/PhysicsRopeEngine/Joint.h
+iostream
+-
+vector
+-
 

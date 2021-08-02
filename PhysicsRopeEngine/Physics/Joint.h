@@ -1,9 +1,9 @@
 #pragma once
 
 #include "glm/ext.hpp"
-#include "RenderedObject.h"
-#include "UpdatedObject.h"
-#include "Scene.h"
+#include "../BaseClasses/RenderedObject.h"
+#include "../BaseClasses/UpdatedObject.h"
+#include "../Scene/Scene.h"
 
 const float DEFAULT_JOINT_RADIUS = 0.5;
 const float PHYSIC_STEP = 0.01;

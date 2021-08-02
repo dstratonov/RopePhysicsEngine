@@ -1,7 +1,8 @@
 #pragma once
 #include <vector>
-#include "RenderedObject.h"
-#include "UpdatedObject.h"
+#include "../BaseClasses/RenderedObject.h"
+#include "../BaseClasses/UpdatedObject.h"
+#include "../Utilities/DrawPrimitives.h"
 
 class UpdatedObject;
 class RenderedObject;

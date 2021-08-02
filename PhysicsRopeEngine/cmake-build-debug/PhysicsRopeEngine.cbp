@@ -80,34 +80,34 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/RopePhysicsEngine/PhysicsRopeEngine/DrawPrimitives.cpp">
+		<Unit filename="D:/RopePhysicsEngine/PhysicsRopeEngine/BaseClasses/RenderedObject.cpp">
 			<Option target="PhysicsRopeEngine"/>
 		</Unit>
-		<Unit filename="D:/RopePhysicsEngine/PhysicsRopeEngine/DrawPrimitives.h">
+		<Unit filename="D:/RopePhysicsEngine/PhysicsRopeEngine/BaseClasses/RenderedObject.h">
 			<Option target="PhysicsRopeEngine"/>
 		</Unit>
-		<Unit filename="D:/RopePhysicsEngine/PhysicsRopeEngine/Joint.cpp">
+		<Unit filename="D:/RopePhysicsEngine/PhysicsRopeEngine/BaseClasses/UpdatedObject.cpp">
 			<Option target="PhysicsRopeEngine"/>
 		</Unit>
-		<Unit filename="D:/RopePhysicsEngine/PhysicsRopeEngine/Joint.h">
+		<Unit filename="D:/RopePhysicsEngine/PhysicsRopeEngine/BaseClasses/UpdatedObject.h">
 			<Option target="PhysicsRopeEngine"/>
 		</Unit>
-		<Unit filename="D:/RopePhysicsEngine/PhysicsRopeEngine/RenderedObject.cpp">
+		<Unit filename="D:/RopePhysicsEngine/PhysicsRopeEngine/Physics/Joint.cpp">
 			<Option target="PhysicsRopeEngine"/>
 		</Unit>
-		<Unit filename="D:/RopePhysicsEngine/PhysicsRopeEngine/RenderedObject.h">
+		<Unit filename="D:/RopePhysicsEngine/PhysicsRopeEngine/Physics/Joint.h">
 			<Option target="PhysicsRopeEngine"/>
 		</Unit>
-		<Unit filename="D:/RopePhysicsEngine/PhysicsRopeEngine/Scene.cpp">
+		<Unit filename="D:/RopePhysicsEngine/PhysicsRopeEngine/Scene/Scene.cpp">
 			<Option target="PhysicsRopeEngine"/>
 		</Unit>
-		<Unit filename="D:/RopePhysicsEngine/PhysicsRopeEngine/Scene.h">
+		<Unit filename="D:/RopePhysicsEngine/PhysicsRopeEngine/Scene/Scene.h">
 			<Option target="PhysicsRopeEngine"/>
 		</Unit>
-		<Unit filename="D:/RopePhysicsEngine/PhysicsRopeEngine/UpdatedObject.cpp">
+		<Unit filename="D:/RopePhysicsEngine/PhysicsRopeEngine/Utilities/DrawPrimitives.cpp">
 			<Option target="PhysicsRopeEngine"/>
 		</Unit>
-		<Unit filename="D:/RopePhysicsEngine/PhysicsRopeEngine/UpdatedObject.h">
+		<Unit filename="D:/RopePhysicsEngine/PhysicsRopeEngine/Utilities/DrawPrimitives.h">
 			<Option target="PhysicsRopeEngine"/>
 		</Unit>
 		<Unit filename="D:/RopePhysicsEngine/PhysicsRopeEngine/main.cpp">

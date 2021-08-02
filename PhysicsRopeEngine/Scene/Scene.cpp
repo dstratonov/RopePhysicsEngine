@@ -17,4 +17,7 @@ void Scene::update() {
     for (auto i : mRenderedObjects){
         i->render();
     }
+
+    drawTheLine(glm::vec2(-10, -2), glm::vec2(10, -2));
+
 }
