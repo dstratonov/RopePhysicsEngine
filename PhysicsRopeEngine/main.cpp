@@ -1,7 +1,7 @@
 #include <GL/glut.h>
 #include <GLFW/glfw3.h>
 #include "glm/ext.hpp"
-#include "Physics/Joint.h"
+#include "Scene/Scene.h"
 #include <iostream>
 #include <vector>
 
@@ -37,10 +37,10 @@ int main()
     glMatrixMode(GL_PROJECTION);
     glLoadMatrixf(glm::value_ptr(m));
 
-    Scene globalScene;
+    Scene globalScene = Scene::getInstance();
+    globalScene.createNewJoint(glm::vec2(0.0, 0.0));
+    globalScene.createNewJoint(glm::vec2(5.0, 0.0), 5.0f);
 
-    std::vector<Joint> joints;
-    joints.push_back(Joint(glm::vec2(0.0, 0.0), &globalScene));
 
     while(glfwWindowShouldClose(window) == GL_FALSE) {
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);

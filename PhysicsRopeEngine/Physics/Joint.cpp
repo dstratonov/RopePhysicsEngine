@@ -1,12 +1,10 @@
 #include "Joint.h"
 #include "../Utilities/DrawPrimitives.h"
 
-Joint::Joint(glm::vec2 initialPosition, Scene* scene) : mPosition(initialPosition), UpdatedObject(scene),
-                                                        RenderedObject(scene){
+Joint::Joint(glm::vec2 initialPosition) : mPosition(initialPosition){
 }
 
-Joint::Joint(glm::vec2 initialPosition, float mass, Scene* scene) : mPosition(initialPosition), mMass(mass), UpdatedObject(scene),
-                                                        RenderedObject(scene){
+Joint::Joint(glm::vec2 initialPosition, float mass) : mPosition(initialPosition), mMass(mass){
 }
 
 void Joint::update() {
