@@ -23,13 +23,13 @@ float LineCollider::getRadius() {
 void LineCollider::addColliderForce(glm::vec2 forceVector) {}
 
 bool LineCollider::isColliding(Collider *collider, glm::vec2& outVector) {
-    glm::vec2 jointPosition = collider->getPosition();
-    glm::vec2 closestPoint = glm::closestPointOnLine(jointPosition, lineStart, lineEnd);
+    glm::vec2 colliderPosition = collider->getPosition();
+    glm::vec2 closestPoint = glm::closestPointOnLine(colliderPosition, lineStart, lineEnd);
     float jointRadius = collider->getRadius();
-    float distanceToCollider = glm::distance(jointPosition, closestPoint);
+    float distanceToCollider = glm::distance(colliderPosition, closestPoint);
 
     if ((distanceToCollider - getRadius()) < jointRadius){
-        glm::vec2 forceVector = jointPosition - closestPoint;
+        glm::vec2 forceVector = colliderPosition - closestPoint;
         glm::normalize(forceVector);
         forceVector *= (jointRadius - (distanceToCollider - getRadius())) * 1.0f;
         outVector = forceVector;

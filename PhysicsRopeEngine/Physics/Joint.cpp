@@ -12,12 +12,12 @@ float Joint::distanceToCollider(glm::vec2 position) {
 }
 
 bool Joint::isColliding(Collider *collider, glm::vec2 &outVector) {
-    glm::vec2 jointPosition = collider->getPosition();
+    glm::vec2 colliderPosition = collider->getPosition();
     float jointRadius = collider->getRadius();
-    float distanceToCollider = glm::distance(jointPosition, mPosition);
+    float distanceToCollider = glm::distance(colliderPosition, mPosition);
 
     if ((distanceToCollider - getRadius()) < jointRadius){
-        glm::vec2 forceVector = jointPosition - mPosition;
+        glm::vec2 forceVector = colliderPosition - mPosition;
         glm::normalize(forceVector);
         forceVector *= (jointRadius - (distanceToCollider - getRadius())) * 1.0f;
         outVector = forceVector;
