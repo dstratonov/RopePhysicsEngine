@@ -4,9 +4,6 @@
 CMakeFiles/PhysicsRopeEngine.dir/BaseClasses/Collider.cpp.obj
  D:/RopePhysicsEngine/PhysicsRopeEngine/BaseClasses/Collider.cpp
  D:/RopePhysicsEngine/PhysicsRopeEngine/BaseClasses/Collider.h
- D:/RopePhysicsEngine/PhysicsRopeEngine/BaseClasses/RenderedObject.h
- D:/RopePhysicsEngine/PhysicsRopeEngine/BaseClasses/UpdatedObject.h
- D:/RopePhysicsEngine/PhysicsRopeEngine/Physics/Joint.h
 CMakeFiles/PhysicsRopeEngine.dir/BaseClasses/RenderedObject.cpp.obj
  D:/RopePhysicsEngine/PhysicsRopeEngine/BaseClasses/RenderedObject.cpp
  D:/RopePhysicsEngine/PhysicsRopeEngine/BaseClasses/RenderedObject.h
@@ -16,12 +13,11 @@ CMakeFiles/PhysicsRopeEngine.dir/BaseClasses/UpdatedObject.cpp.obj
 CMakeFiles/PhysicsRopeEngine.dir/Colliders/LineCollider.cpp.obj
  D:/RopePhysicsEngine/PhysicsRopeEngine/BaseClasses/Collider.h
  D:/RopePhysicsEngine/PhysicsRopeEngine/BaseClasses/RenderedObject.h
- D:/RopePhysicsEngine/PhysicsRopeEngine/BaseClasses/UpdatedObject.h
  D:/RopePhysicsEngine/PhysicsRopeEngine/Colliders/LineCollider.cpp
  D:/RopePhysicsEngine/PhysicsRopeEngine/Colliders/LineCollider.h
- D:/RopePhysicsEngine/PhysicsRopeEngine/Physics/Joint.h
  D:/RopePhysicsEngine/PhysicsRopeEngine/Utilities/DrawPrimitives.h
 CMakeFiles/PhysicsRopeEngine.dir/Physics/Joint.cpp.obj
+ D:/RopePhysicsEngine/PhysicsRopeEngine/BaseClasses/Collider.h
  D:/RopePhysicsEngine/PhysicsRopeEngine/BaseClasses/RenderedObject.h
  D:/RopePhysicsEngine/PhysicsRopeEngine/BaseClasses/UpdatedObject.h
  D:/RopePhysicsEngine/PhysicsRopeEngine/Physics/Joint.cpp

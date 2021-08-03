@@ -37,7 +37,10 @@ int main()
     glMatrixMode(GL_PROJECTION);
     glLoadMatrixf(glm::value_ptr(m));
 
-    Scene::createNewJoint(glm::vec2(0.0, 0.0));
+    Scene::createNewJoint(glm::vec2(0.0, 0.0), 1.0);
+    Scene::createNewJoint(glm::vec2(1.0, 0.0), 0.5);
+    Scene::createNewJoint(glm::vec2(4.0, 0.0), 10.0);
+    Scene::createNewJoint(glm::vec2(3.0, 0.0), 20.0);
     Scene::createNewJoint(glm::vec2(2.0, 0.0), 5.0f);
     Scene::createNewLineCollider(glm::vec2(10, 1), glm::vec2(-10, -5));
     Scene::createNewLineCollider(glm::vec2(7, -5), glm::vec2(7, 5));

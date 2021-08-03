@@ -33,6 +33,7 @@ Joint* Scene::createNewJoint(glm::vec2 initialPosition){
     Scene& scene = Scene::getInstance();
     Joint* newJoint = new Joint(initialPosition);
     scene.addJoint(newJoint);
+    scene.mColliders.push_back(newJoint);
     return newJoint;
 }
 
@@ -40,6 +41,7 @@ Joint* Scene::createNewJoint(glm::vec2 initialPosition, float mass){
     Scene& scene = Scene::getInstance();
     Joint* newJoint = new Joint(initialPosition, mass);
     scene.addJoint(newJoint);
+    scene.mColliders.push_back(newJoint);
     return newJoint;
 }
 
@@ -73,7 +75,7 @@ void Scene::renderObjects() {
 void Scene::update() {
     Scene& scene = Scene::getInstance();
     for (auto i : scene.mColliders){
-        for (auto j : scene.mJoints){
+        for (auto j : scene.mColliders){
             i->collision(j);
         }
     }

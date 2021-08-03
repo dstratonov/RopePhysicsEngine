@@ -7,6 +7,26 @@ Joint::Joint(glm::vec2 initialPosition) : mPosition(initialPosition){
 Joint::Joint(glm::vec2 initialPosition, float mass) : mPosition(initialPosition), mMass(mass){
 }
 
+float Joint::distanceToCollider(glm::vec2 position) {
+    return glm::distance(position, mPosition);
+}
+
+bool Joint::isColliding(Collider *collider, glm::vec2 &outVector) {
+    glm::vec2 jointPosition = collider->getPosition();
+    float jointRadius = collider->getRadius();
+    float distanceToCollider = glm::distance(jointPosition, mPosition);
+
+    if ((distanceToCollider - getRadius()) < jointRadius){
+        glm::vec2 forceVector = jointPosition - mPosition;
+        glm::normalize(forceVector);
+        forceVector *= (jointRadius - (distanceToCollider - getRadius())) * 1.0f;
+        outVector = forceVector;
+        collider->addColliderForce(forceVector);
+        return true;
+    }
+    return false;
+}
+
 void Joint::update() {
     glm::vec2 forces = GRAVITY;
     forces *= PHYSIC_STEP;
