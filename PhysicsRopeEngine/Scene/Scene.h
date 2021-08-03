@@ -10,23 +10,21 @@ class RenderedObject;
 
 class Scene {
 public:
-    static Scene& getInstance(){
+    static Scene& getInstance();
 
-        static Scene sceneInstance;
+    static Joint* createNewJoint(glm::vec2 initialPosition);
+    static Joint* createNewJoint(glm::vec2 initialPosition, float mass);
 
-        return sceneInstance;
-    }
-
-    Joint* createNewJoint(glm::vec2 initialPosition);
-    Joint* createNewJoint(glm::vec2 initialPosition, float mass);
-
+    void addJoint(Joint* joint);
     void addRenderedObject(RenderedObject *object);
-
     void addUpdatedObject(UpdatedObject *object);
 
     ~Scene();
 
-    void update();
+    void updateObjects();
+    void renderObjects();
+
+    static void update();
 
 private:
     std::vector<RenderedObject *> mRenderedObjects;

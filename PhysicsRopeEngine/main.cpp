@@ -37,15 +37,14 @@ int main()
     glMatrixMode(GL_PROJECTION);
     glLoadMatrixf(glm::value_ptr(m));
 
-    Scene globalScene = Scene::getInstance();
-    globalScene.createNewJoint(glm::vec2(0.0, 0.0));
-    globalScene.createNewJoint(glm::vec2(5.0, 0.0), 5.0f);
+    Scene::createNewJoint(glm::vec2(0.0, 0.0));
+    Scene::createNewJoint(glm::vec2(5.0, 0.0), 5.0f);
 
 
     while(glfwWindowShouldClose(window) == GL_FALSE) {
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
         glColor4f(1, 0, 0, 1);
-        globalScene.update();
+        Scene::update();
         glfwSwapBuffers(window);
         glfwPollEvents();
     }

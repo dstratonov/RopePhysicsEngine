@@ -18,6 +18,10 @@ D:/RopePhysicsEngine/PhysicsRopeEngine/BaseClasses/RenderedObject.h
 ../BaseClasses/UpdatedObject.h
 D:/RopePhysicsEngine/PhysicsRopeEngine/BaseClasses/UpdatedObject.h
 
+D:/RopePhysicsEngine/PhysicsRopeEngine/Scene/Scene.cpp
+Scene.h
+D:/RopePhysicsEngine/PhysicsRopeEngine/Scene/Scene.h
+
 D:/RopePhysicsEngine/PhysicsRopeEngine/Scene/Scene.h
 vector
 -
