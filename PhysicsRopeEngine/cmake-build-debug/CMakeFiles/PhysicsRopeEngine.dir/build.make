@@ -153,6 +153,32 @@ CMakeFiles/PhysicsRopeEngine.dir/BaseClasses/UpdatedObject.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PhysicsRopeEngine.dir/BaseClasses/UpdatedObject.cpp.s"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\RopePhysicsEngine\PhysicsRopeEngine\BaseClasses\UpdatedObject.cpp -o CMakeFiles\PhysicsRopeEngine.dir\BaseClasses\UpdatedObject.cpp.s
 
+CMakeFiles/PhysicsRopeEngine.dir/BaseClasses/Collider.cpp.obj: CMakeFiles/PhysicsRopeEngine.dir/flags.make
+CMakeFiles/PhysicsRopeEngine.dir/BaseClasses/Collider.cpp.obj: ../BaseClasses/Collider.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\RopePhysicsEngine\PhysicsRopeEngine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/PhysicsRopeEngine.dir/BaseClasses/Collider.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PhysicsRopeEngine.dir\BaseClasses\Collider.cpp.obj -c D:\RopePhysicsEngine\PhysicsRopeEngine\BaseClasses\Collider.cpp
+
+CMakeFiles/PhysicsRopeEngine.dir/BaseClasses/Collider.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PhysicsRopeEngine.dir/BaseClasses/Collider.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\RopePhysicsEngine\PhysicsRopeEngine\BaseClasses\Collider.cpp > CMakeFiles\PhysicsRopeEngine.dir\BaseClasses\Collider.cpp.i
+
+CMakeFiles/PhysicsRopeEngine.dir/BaseClasses/Collider.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PhysicsRopeEngine.dir/BaseClasses/Collider.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\RopePhysicsEngine\PhysicsRopeEngine\BaseClasses\Collider.cpp -o CMakeFiles\PhysicsRopeEngine.dir\BaseClasses\Collider.cpp.s
+
+CMakeFiles/PhysicsRopeEngine.dir/Colliders/LineCollider.cpp.obj: CMakeFiles/PhysicsRopeEngine.dir/flags.make
+CMakeFiles/PhysicsRopeEngine.dir/Colliders/LineCollider.cpp.obj: ../Colliders/LineCollider.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\RopePhysicsEngine\PhysicsRopeEngine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/PhysicsRopeEngine.dir/Colliders/LineCollider.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PhysicsRopeEngine.dir\Colliders\LineCollider.cpp.obj -c D:\RopePhysicsEngine\PhysicsRopeEngine\Colliders\LineCollider.cpp
+
+CMakeFiles/PhysicsRopeEngine.dir/Colliders/LineCollider.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PhysicsRopeEngine.dir/Colliders/LineCollider.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\RopePhysicsEngine\PhysicsRopeEngine\Colliders\LineCollider.cpp > CMakeFiles\PhysicsRopeEngine.dir\Colliders\LineCollider.cpp.i
+
+CMakeFiles/PhysicsRopeEngine.dir/Colliders/LineCollider.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PhysicsRopeEngine.dir/Colliders/LineCollider.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\RopePhysicsEngine\PhysicsRopeEngine\Colliders\LineCollider.cpp -o CMakeFiles\PhysicsRopeEngine.dir\Colliders\LineCollider.cpp.s
+
 # Object files for target PhysicsRopeEngine
 PhysicsRopeEngine_OBJECTS = \
 "CMakeFiles/PhysicsRopeEngine.dir/main.cpp.obj" \
@@ -160,7 +186,9 @@ PhysicsRopeEngine_OBJECTS = \
 "CMakeFiles/PhysicsRopeEngine.dir/Utilities/DrawPrimitives.cpp.obj" \
 "CMakeFiles/PhysicsRopeEngine.dir/Scene/Scene.cpp.obj" \
 "CMakeFiles/PhysicsRopeEngine.dir/BaseClasses/RenderedObject.cpp.obj" \
-"CMakeFiles/PhysicsRopeEngine.dir/BaseClasses/UpdatedObject.cpp.obj"
+"CMakeFiles/PhysicsRopeEngine.dir/BaseClasses/UpdatedObject.cpp.obj" \
+"CMakeFiles/PhysicsRopeEngine.dir/BaseClasses/Collider.cpp.obj" \
+"CMakeFiles/PhysicsRopeEngine.dir/Colliders/LineCollider.cpp.obj"
 
 # External object files for target PhysicsRopeEngine
 PhysicsRopeEngine_EXTERNAL_OBJECTS =
@@ -171,11 +199,13 @@ PhysicsRopeEngine.exe: CMakeFiles/PhysicsRopeEngine.dir/Utilities/DrawPrimitives
 PhysicsRopeEngine.exe: CMakeFiles/PhysicsRopeEngine.dir/Scene/Scene.cpp.obj
 PhysicsRopeEngine.exe: CMakeFiles/PhysicsRopeEngine.dir/BaseClasses/RenderedObject.cpp.obj
 PhysicsRopeEngine.exe: CMakeFiles/PhysicsRopeEngine.dir/BaseClasses/UpdatedObject.cpp.obj
+PhysicsRopeEngine.exe: CMakeFiles/PhysicsRopeEngine.dir/BaseClasses/Collider.cpp.obj
+PhysicsRopeEngine.exe: CMakeFiles/PhysicsRopeEngine.dir/Colliders/LineCollider.cpp.obj
 PhysicsRopeEngine.exe: CMakeFiles/PhysicsRopeEngine.dir/build.make
 PhysicsRopeEngine.exe: CMakeFiles/PhysicsRopeEngine.dir/linklibs.rsp
 PhysicsRopeEngine.exe: CMakeFiles/PhysicsRopeEngine.dir/objects1.rsp
 PhysicsRopeEngine.exe: CMakeFiles/PhysicsRopeEngine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\RopePhysicsEngine\PhysicsRopeEngine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable PhysicsRopeEngine.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\RopePhysicsEngine\PhysicsRopeEngine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable PhysicsRopeEngine.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\PhysicsRopeEngine.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -38,7 +38,11 @@ int main()
     glLoadMatrixf(glm::value_ptr(m));
 
     Scene::createNewJoint(glm::vec2(0.0, 0.0));
-    Scene::createNewJoint(glm::vec2(5.0, 0.0), 5.0f);
+    Scene::createNewJoint(glm::vec2(2.0, 0.0), 5.0f);
+    Scene::createNewLineCollider(glm::vec2(10, 1), glm::vec2(-10, -5));
+    Scene::createNewLineCollider(glm::vec2(7, -5), glm::vec2(7, 5));
+    Scene::createNewLineCollider(glm::vec2(-3, -5), glm::vec2(-3, 5));
+    Scene::createNewLineCollider(glm::vec2(-2, -5), glm::vec2(-2, -2.4));
 
 
     while(glfwWindowShouldClose(window) == GL_FALSE) {

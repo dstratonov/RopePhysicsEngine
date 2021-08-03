@@ -13,10 +13,15 @@ class Joint : public UpdatedObject, public RenderedObject{
 public:
     Joint(glm::vec2 initialPosition);
     Joint(glm::vec2 initialPosition, float mass);
+    glm::vec2 getPosition();
+    glm::vec2 getVelocity();
+    float getRadius();
+    void addColliderForce(glm::vec2 force);
     void update();
     void render();
 private:
     glm::vec2 mVelocity;
     glm::vec2 mPosition;
     float mMass = 1.0f;
+    glm::vec2 mColliderForce;
 };

@@ -20,6 +20,15 @@ void Scene::addUpdatedObject(UpdatedObject *object) {
     mUpdatedObjects.push_back(object);
 }
 
+LineCollider* Scene::createNewLineCollider(glm::vec2 lineStart, glm::vec2 lineEnd) {
+    Scene& scene = Scene::getInstance();
+    auto* newCollider = new LineCollider(lineStart, lineEnd);
+    scene.addRenderedObject(newCollider);
+    scene.mColliders.push_back(newCollider);
+
+    return newCollider;
+}
+
 Joint* Scene::createNewJoint(glm::vec2 initialPosition){
     Scene& scene = Scene::getInstance();
     Joint* newJoint = new Joint(initialPosition);
@@ -38,7 +47,13 @@ Scene::~Scene(){
     for (int i = 0; i < mJoints.size(); i++){
         delete mJoints[i];
     }
+
+    for (int i = 0; i < mColliders.size(); i++){
+        delete mColliders[i];
+    }
+
     mJoints.clear();
+    mColliders.clear();
     mUpdatedObjects.clear();
     mRenderedObjects.clear();
 }
@@ -53,12 +68,15 @@ void Scene::renderObjects() {
     for (auto i : mRenderedObjects){
         i->render();
     }
-
-    drawTheLine(glm::vec2(-10, -2), glm::vec2(10, -2));
 }
 
 void Scene::update() {
     Scene& scene = Scene::getInstance();
+    for (auto i : scene.mColliders){
+        for (auto j : scene.mJoints){
+            i->collision(j);
+        }
+    }
     scene.updateObjects();
     scene.renderObjects();
 }

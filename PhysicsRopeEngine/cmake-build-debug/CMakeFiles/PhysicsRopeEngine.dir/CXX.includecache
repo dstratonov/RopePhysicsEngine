@@ -6,9 +6,23 @@
 
 #IncludeRegexTransform: 
 
+D:/RopePhysicsEngine/PhysicsRopeEngine/BaseClasses/Collider.h
+glm/ext.hpp
+D:/RopePhysicsEngine/PhysicsRopeEngine/BaseClasses/glm/ext.hpp
+../Physics/Joint.h
+D:/RopePhysicsEngine/PhysicsRopeEngine/Physics/Joint.h
+
 D:/RopePhysicsEngine/PhysicsRopeEngine/BaseClasses/RenderedObject.h
 
 D:/RopePhysicsEngine/PhysicsRopeEngine/BaseClasses/UpdatedObject.h
+
+D:/RopePhysicsEngine/PhysicsRopeEngine/Colliders/LineCollider.h
+glm/ext.hpp
+D:/RopePhysicsEngine/PhysicsRopeEngine/Colliders/glm/ext.hpp
+../BaseClasses/Collider.h
+D:/RopePhysicsEngine/PhysicsRopeEngine/BaseClasses/Collider.h
+../Utilities/DrawPrimitives.h
+D:/RopePhysicsEngine/PhysicsRopeEngine/Utilities/DrawPrimitives.h
 
 D:/RopePhysicsEngine/PhysicsRopeEngine/Physics/Joint.h
 glm/ext.hpp
@@ -17,10 +31,6 @@ D:/RopePhysicsEngine/PhysicsRopeEngine/Physics/glm/ext.hpp
 D:/RopePhysicsEngine/PhysicsRopeEngine/BaseClasses/RenderedObject.h
 ../BaseClasses/UpdatedObject.h
 D:/RopePhysicsEngine/PhysicsRopeEngine/BaseClasses/UpdatedObject.h
-
-D:/RopePhysicsEngine/PhysicsRopeEngine/Scene/Scene.cpp
-Scene.h
-D:/RopePhysicsEngine/PhysicsRopeEngine/Scene/Scene.h
 
 D:/RopePhysicsEngine/PhysicsRopeEngine/Scene/Scene.h
 vector
@@ -33,6 +43,10 @@ D:/RopePhysicsEngine/PhysicsRopeEngine/BaseClasses/UpdatedObject.h
 D:/RopePhysicsEngine/PhysicsRopeEngine/Utilities/DrawPrimitives.h
 ../Physics/Joint.h
 D:/RopePhysicsEngine/PhysicsRopeEngine/Physics/Joint.h
+../BaseClasses/Collider.h
+D:/RopePhysicsEngine/PhysicsRopeEngine/BaseClasses/Collider.h
+../Colliders/LineCollider.h
+D:/RopePhysicsEngine/PhysicsRopeEngine/Colliders/LineCollider.h
 
 D:/RopePhysicsEngine/PhysicsRopeEngine/Utilities/DrawPrimitives.h
 GL/glut.h

@@ -141,6 +141,33 @@ PhysicsRopeEngine/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PhysicsRopeEngine.dir\build.make CMakeFiles/PhysicsRopeEngine.dir/build
 .PHONY : PhysicsRopeEngine/fast
 
+BaseClasses/Collider.obj: BaseClasses/Collider.cpp.obj
+
+.PHONY : BaseClasses/Collider.obj
+
+# target to build an object file
+BaseClasses/Collider.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PhysicsRopeEngine.dir\build.make CMakeFiles/PhysicsRopeEngine.dir/BaseClasses/Collider.cpp.obj
+.PHONY : BaseClasses/Collider.cpp.obj
+
+BaseClasses/Collider.i: BaseClasses/Collider.cpp.i
+
+.PHONY : BaseClasses/Collider.i
+
+# target to preprocess a source file
+BaseClasses/Collider.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PhysicsRopeEngine.dir\build.make CMakeFiles/PhysicsRopeEngine.dir/BaseClasses/Collider.cpp.i
+.PHONY : BaseClasses/Collider.cpp.i
+
+BaseClasses/Collider.s: BaseClasses/Collider.cpp.s
+
+.PHONY : BaseClasses/Collider.s
+
+# target to generate assembly for a file
+BaseClasses/Collider.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PhysicsRopeEngine.dir\build.make CMakeFiles/PhysicsRopeEngine.dir/BaseClasses/Collider.cpp.s
+.PHONY : BaseClasses/Collider.cpp.s
+
 BaseClasses/RenderedObject.obj: BaseClasses/RenderedObject.cpp.obj
 
 .PHONY : BaseClasses/RenderedObject.obj
@@ -194,6 +221,33 @@ BaseClasses/UpdatedObject.s: BaseClasses/UpdatedObject.cpp.s
 BaseClasses/UpdatedObject.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PhysicsRopeEngine.dir\build.make CMakeFiles/PhysicsRopeEngine.dir/BaseClasses/UpdatedObject.cpp.s
 .PHONY : BaseClasses/UpdatedObject.cpp.s
+
+Colliders/LineCollider.obj: Colliders/LineCollider.cpp.obj
+
+.PHONY : Colliders/LineCollider.obj
+
+# target to build an object file
+Colliders/LineCollider.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PhysicsRopeEngine.dir\build.make CMakeFiles/PhysicsRopeEngine.dir/Colliders/LineCollider.cpp.obj
+.PHONY : Colliders/LineCollider.cpp.obj
+
+Colliders/LineCollider.i: Colliders/LineCollider.cpp.i
+
+.PHONY : Colliders/LineCollider.i
+
+# target to preprocess a source file
+Colliders/LineCollider.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PhysicsRopeEngine.dir\build.make CMakeFiles/PhysicsRopeEngine.dir/Colliders/LineCollider.cpp.i
+.PHONY : Colliders/LineCollider.cpp.i
+
+Colliders/LineCollider.s: Colliders/LineCollider.cpp.s
+
+.PHONY : Colliders/LineCollider.s
+
+# target to generate assembly for a file
+Colliders/LineCollider.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PhysicsRopeEngine.dir\build.make CMakeFiles/PhysicsRopeEngine.dir/Colliders/LineCollider.cpp.s
+.PHONY : Colliders/LineCollider.cpp.s
 
 Physics/Joint.obj: Physics/Joint.cpp.obj
 
@@ -312,12 +366,18 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... PhysicsRopeEngine
+	@echo ... BaseClasses/Collider.obj
+	@echo ... BaseClasses/Collider.i
+	@echo ... BaseClasses/Collider.s
 	@echo ... BaseClasses/RenderedObject.obj
 	@echo ... BaseClasses/RenderedObject.i
 	@echo ... BaseClasses/RenderedObject.s
 	@echo ... BaseClasses/UpdatedObject.obj
 	@echo ... BaseClasses/UpdatedObject.i
 	@echo ... BaseClasses/UpdatedObject.s
+	@echo ... Colliders/LineCollider.obj
+	@echo ... Colliders/LineCollider.i
+	@echo ... Colliders/LineCollider.s
 	@echo ... Physics/Joint.obj
 	@echo ... Physics/Joint.i
 	@echo ... Physics/Joint.s

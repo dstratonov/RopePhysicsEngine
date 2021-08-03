@@ -10,16 +10,31 @@ Joint::Joint(glm::vec2 initialPosition, float mass) : mPosition(initialPosition)
 void Joint::update() {
     glm::vec2 forces = GRAVITY;
     forces *= PHYSIC_STEP;
-
-    if ((mPosition.y - DEFAULT_JOINT_RADIUS) < -2.0){
-        forces += (glm::vec2(0.0, 1.0) * (-2 - (mPosition.y - DEFAULT_JOINT_RADIUS)));
-    }
+    forces += mColliderForce;
 
     mVelocity = mVelocity + forces / mMass;
     mVelocity *= 0.99;
     mPosition = mPosition + mVelocity;
+    mColliderForce.x = 0.0f;
+    mColliderForce.y = 0.0f;
 }
 
 void Joint::render() {
     drawTheCircle(mPosition, DEFAULT_JOINT_RADIUS);
+}
+
+glm::vec2 Joint::getPosition() {
+    return mPosition;
+}
+
+glm::vec2 Joint::getVelocity(){
+    return mVelocity;
+}
+
+float Joint::getRadius() {
+    return DEFAULT_JOINT_RADIUS;
+}
+
+void Joint::addColliderForce(glm::vec2 force) {
+    mColliderForce += force;
 }

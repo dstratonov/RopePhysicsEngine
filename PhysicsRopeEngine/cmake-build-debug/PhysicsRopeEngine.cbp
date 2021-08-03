@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/RopePhysicsEngine/PhysicsRopeEngine/BaseClasses/Collider.cpp">
+			<Option target="PhysicsRopeEngine"/>
+		</Unit>
+		<Unit filename="D:/RopePhysicsEngine/PhysicsRopeEngine/BaseClasses/Collider.h">
+			<Option target="PhysicsRopeEngine"/>
+		</Unit>
 		<Unit filename="D:/RopePhysicsEngine/PhysicsRopeEngine/BaseClasses/RenderedObject.cpp">
 			<Option target="PhysicsRopeEngine"/>
 		</Unit>
@@ -90,6 +96,12 @@
 			<Option target="PhysicsRopeEngine"/>
 		</Unit>
 		<Unit filename="D:/RopePhysicsEngine/PhysicsRopeEngine/BaseClasses/UpdatedObject.h">
+			<Option target="PhysicsRopeEngine"/>
+		</Unit>
+		<Unit filename="D:/RopePhysicsEngine/PhysicsRopeEngine/Colliders/LineCollider.cpp">
+			<Option target="PhysicsRopeEngine"/>
+		</Unit>
+		<Unit filename="D:/RopePhysicsEngine/PhysicsRopeEngine/Colliders/LineCollider.h">
 			<Option target="PhysicsRopeEngine"/>
 		</Unit>
 		<Unit filename="D:/RopePhysicsEngine/PhysicsRopeEngine/Physics/Joint.cpp">
