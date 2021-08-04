@@ -5,9 +5,10 @@
 #include "Collider.h"
 
 
-void Collider::collision(Collider *joint) {
+void Collider::collision(Collider *collider) {
     glm::vec2 forceVector;
-    if (isColliding(joint,forceVector)){
-        joint->addColliderForce(forceVector);
+    if (isColliding(collider,forceVector)){
+        collider->addColliderForce(forceVector);
+        addColliderForce(-forceVector);
     }
 }

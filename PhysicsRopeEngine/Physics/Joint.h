@@ -6,7 +6,7 @@
 #include "../BaseClasses/Collider.h"
 
 const float DEFAULT_JOINT_RADIUS = 0.5;
-const float PHYSIC_STEP = 0.01;
+const float PHYSIC_STEP = 0.001;
 const glm::vec2 GRAVITY(0.0, -0.1);
 
 

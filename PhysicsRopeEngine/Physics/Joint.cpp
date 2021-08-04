@@ -1,5 +1,6 @@
 #include "Joint.h"
 #include "../Utilities/DrawPrimitives.h"
+#include <iostream>
 
 Joint::Joint(glm::vec2 initialPosition) : mPosition(initialPosition){
 }
@@ -28,11 +29,9 @@ bool Joint::isColliding(Collider *collider, glm::vec2 &outVector) {
 }
 
 void Joint::update() {
-    glm::vec2 forces = GRAVITY;
-    forces *= PHYSIC_STEP;
-    forces += mColliderForce;
+    glm::vec2 forces =  mColliderForce;
 
-    mVelocity = mVelocity + forces / mMass;
+    mVelocity = mVelocity + forces / mMass + GRAVITY * PHYSIC_STEP * mMass;
     mVelocity *= 0.99;
     mPosition = mPosition + mVelocity;
     mColliderForce.x = 0.0f;
@@ -40,7 +39,7 @@ void Joint::update() {
 }
 
 void Joint::render() {
-    drawTheCircle(mPosition, DEFAULT_JOINT_RADIUS);
+    drawTheCircle(mPosition, DEFAULT_JOINT_RADIUS, glm::vec3(glm::lerp(glm::vec3(0.0f, 1.0f, 0.0f), glm::vec3(1.0f, 0.0f, 0.0f),glm::length(mVelocity) * 20.0f)));
 }
 
 glm::vec2 Joint::getPosition() {

@@ -11,5 +11,6 @@ const float PI = 3.14;
 void drawTheBox(glm::vec2 center, glm::vec2 size);
 
 void drawTheCircle(glm::vec2 center, float radius);
+void drawTheCircle(glm::vec2 center, float radius, glm::vec3 color);
 
 void drawTheLine(glm::vec2 startPoint, glm::vec2 endPoint);

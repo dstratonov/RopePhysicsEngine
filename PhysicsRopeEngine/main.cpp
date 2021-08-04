@@ -23,7 +23,7 @@ int main()
     }
 
     glfwMakeContextCurrent(window);
-    glfwSwapInterval(1);
+    glfwSwapInterval(1.0);
     glfwShowWindow(window);
 
     // Важно! Не эквивалентно glEnable(GL_DEPTH_TEST | GL_DOUBLEBUFFER)
@@ -33,16 +33,17 @@ int main()
 
     glClearColor(0, 0, 0, 1);
 
-    glm::mat4 m = glm::perspective(45.0f, 4.0f / 3.0f, 1.0f, 100.0f);
+    glm::mat4 m = glm::perspective(45.0f, 1.0f, 1.0f, 100.0f);
     glMatrixMode(GL_PROJECTION);
     glLoadMatrixf(glm::value_ptr(m));
 
     Scene::createNewJoint(glm::vec2(0.0, 0.0), 1.0);
-    Scene::createNewJoint(glm::vec2(1.0, 0.0), 0.5);
-    Scene::createNewJoint(glm::vec2(4.0, 0.0), 10.0);
-    Scene::createNewJoint(glm::vec2(3.0, 0.0), 20.0);
+    Scene::createNewJoint(glm::vec2(1.0, 3.0), 1.5);
+    Scene::createNewJoint(glm::vec2(4.0, 5.0), 9.0);
+    Scene::createNewJoint(glm::vec2(3.0, 4.0), 7.0);
     Scene::createNewJoint(glm::vec2(2.0, 0.0), 5.0f);
     Scene::createNewLineCollider(glm::vec2(10, 1), glm::vec2(-10, -5));
+    Scene::createNewLineCollider(glm::vec2(10, 7), glm::vec2(-10, 2));
     Scene::createNewLineCollider(glm::vec2(7, -5), glm::vec2(7, 5));
     Scene::createNewLineCollider(glm::vec2(-3, -5), glm::vec2(-3, 5));
     Scene::createNewLineCollider(glm::vec2(-2, -5), glm::vec2(-2, -2.4));
